@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -47,13 +48,13 @@
 					<div class="panel-body">
 						<form id="userForm">
 							<label for="userInput" class="changeText">Employee Name</label><br>
-							<input type="text" id="userInput"><br>
+							<input type="text" class="userInput" id="employeeName"><br>
 							<label for="userInput" class="changeText">Role</label><br>
-							<input type="text" id="userInput"><br>
+							<input type="text" class="userInput" id="role"><br>
 							<label for="userInput" class="changeText">Date Started</label><br>
-							<input type="text" id="userInput"><br>
-							<label for="userInput" class="changeText">Hourly Rate</label><br>
-							<input type="text" id="userInput"><br>
+							<input type="text" class="userInput" id="dateStarted"><br>
+							<label for="userInput" class="changeText">Monthly Rate</label><br>
+							<input type="text" class="userInput" id="monthlyRate"><br>
 							<br>
 							<input id="addInput" type="submit" class="btn-primary" value="Submit">
 						</form>					
