@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 jumbotron">
+			<h1 class="text-center">Employee Data Management</h1>
+			<h3 class="text-center">A comprehensive directory of employee billable hours</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-primary">
+				<div class="panel-heading">
+				Current Employees
+				</div>
+					<div class="panel-body">
+						<table class="table table-striped">
+							<thead>
+						      <tr>
+						        <th>Employee Name</th>
+						        <th>Role</th>
+						        <th>Date Started</th>
+						        <th>Months Here</th>
+						        <th>Monthly Rate</th>
+						        <th>Total Paid</th>
+						      </tr>
+						    </thead>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-primary">
+				<div class="panel-heading">
+				Add Employee
+				</div>
+					<div class="panel-body">
+						<form id="userForm">
+							<label for="userInput" class="changeText">Employee Name</label><br>
+							<input type="text" id="userInput"><br>
+							<label for="userInput" class="changeText">Role</label><br>
+							<input type="text" id="userInput"><br>
+							<label for="userInput" class="changeText">Date Started</label><br>
+							<input type="text" id="userInput"><br>
+							<label for="userInput" class="changeText">Hourly Rate</label><br>
+							<input type="text" id="userInput"><br>
+							<br>
+							<input id="addInput" type="submit" class="btn-primary" value="Submit">
+						</form>					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="assets/javascript/schedule.js"></script>
+</body>
+</html>
